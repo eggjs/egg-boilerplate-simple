@@ -1,0 +1,25 @@
+{
+  "name": "egg-boilerplate-simple",
+  "version": "1.0.0",
+  "description": "boilerplate for egg quickstart",
+  "scripts": {
+    "autod": "autod",
+    "ci": "npm run test",
+    "test": "npm run lint",
+    "lint": "eslint bin lib test index.js boilerplate"
+  },
+  "homepage": "https://github.com/eggjs/egg-boilerplate-simple",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:eggjs/egg-boilerplate-simple.git"
+  },
+  "author": "TZ <atian25@qq.com>",
+  "dependencies": {
+
+  },
+  "devDependencies": {
+    "autod": "^2.7.1",
+    "eslint": "^3.4.0",
+    "eslint-config-egg": "^3.1.0"
+  }
+}
