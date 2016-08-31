@@ -16,6 +16,7 @@ module.exports = {
     'supertest',
     'power-assert',
     'intelli-espower-loader',
+    'egg-view-nunjucks',
   ],
   exclude: [
     './test/fixtures',
