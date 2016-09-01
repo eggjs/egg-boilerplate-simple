@@ -37,7 +37,7 @@
 
         <div class="nav">
           {% if page > 1 %}
-          <a href="/news?page={{ page }}">&lt; prev</a>
+          <a href="/news?page={{ page - 1 }}">&lt; prev</a>
           {% endif %}
           <a href="/news?page={{ page + 1 }}">more...</a>
         </div>
