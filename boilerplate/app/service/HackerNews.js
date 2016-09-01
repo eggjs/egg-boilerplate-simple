@@ -18,12 +18,13 @@ module.exports = app => (
      * @param {Object} [opts] - urllib options
      * @return {Promise} response.data
      */
-    request(api, opts) {
+    * request(api, opts) {
       const options = Object.assign({
         dataType: 'json',
       }, opts);
 
-      return this.app.urllib.request(`${this.serverUrl}/${api}`, options).then(res => res.data);
+      const result = yield this.ctx.curl(`${this.serverUrl}/${api}`, options);
+      return result.data;
     }
 
     /**
