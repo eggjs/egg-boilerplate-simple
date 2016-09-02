@@ -2,5 +2,5 @@
 
 // only merge in local develop mode
 exports.news = {
-  pageSize: 10,
+  // pageSize: 10,
 };

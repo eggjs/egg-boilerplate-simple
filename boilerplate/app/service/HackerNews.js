@@ -55,5 +55,14 @@ module.exports = app => (
     * getItem(id) {
       return yield this.request(`item/${id}.json`);
     }
+
+    /**
+     * get user info
+     * @param {Number} id - userId
+     * @return {Promise} user info
+     */
+    * getUser(id) {
+      return yield this.request(`user/${id}.json`);
+    }
   }
 );

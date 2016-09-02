@@ -11,6 +11,15 @@ exports.list = function* newsListController() {
 };
 
 exports.detail = function* newsDetailController() {
-  this.body = `news detail #${this.params.id}`;
+  const id = this.params.id;
+  const newsInfo = yield this.service.hackerNews.getItem(id);
+  // get comment parallel
+  const commentList = yield newsInfo.kids.map(id => this.service.hackerNews.getItem(id));
+  yield this.render('news/detail.tpl', { item: newsInfo, comments: commentList });
 };
 
+exports.user = function* userInfoController() {
+  const id = this.params.id;
+  const userInfo = yield this.service.hackerNews.getUser(id);
+  yield this.render('news/user.tpl', { user: userInfo });
+};
