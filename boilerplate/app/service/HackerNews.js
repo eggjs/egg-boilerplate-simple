@@ -53,7 +53,7 @@ module.exports = app => (
      * @return {Promise} item info
      */
     * getItem(id) {
-      return this.request(`item/${id}.json`);
+      return yield this.request(`item/${id}.json`);
     }
   }
 );
