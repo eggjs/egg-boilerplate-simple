@@ -14,9 +14,9 @@ describe('test/app/controller/home.test.js', () => {
 
   afterEach(mm.restore);
 
-  it('should GET /', () => {
+  it('should GET /home', () => {
     return request(app.callback())
-    .get('/')
+    .get('/home')
     .expect('hi, egg')
     .expect(200);
   });
