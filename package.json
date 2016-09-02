@@ -1,6 +1,6 @@
 {
   "name": "egg-boilerplate-simple",
-  "version": "1.1.2",
+  "version": "1.2.0",
   "description": "boilerplate for egg quickstart",
   "scripts": {
     "autod": "autod",
@@ -9,6 +9,7 @@
     "lint": "eslint bin lib test index.js boilerplate"
   },
   "homepage": "https://github.com/eggjs/egg-boilerplate-simple",
+  "bugs": "https://github.com/eggjs/egg/issues",
   "repository": {
     "type": "git",
     "url": "git@github.com:eggjs/egg-boilerplate-simple.git"
