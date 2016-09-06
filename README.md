@@ -1,6 +1,6 @@
 # egg-boilerplate-simple
 
-Boilerplate for egg quickstart. See [egg-init](https://github.com/eggjs/egg-init).
+Boilerplate for egg quickstart. 
 
 [![NPM version][npm-image]][npm-url]
 [![build status][travis-image]][travis-url]
@@ -21,3 +21,18 @@ Boilerplate for egg quickstart. See [egg-init](https://github.com/eggjs/egg-init
 [snyk-url]: https://snyk.io/test/npm/egg-boilerplate-simple
 [download-image]: https://img.shields.io/npm/dm/egg-boilerplate-simple.svg?style=flat-square
 [download-url]: https://npmjs.org/package/egg-boilerplate-simple
+
+## Installation
+
+**Don't `npm install` this directly**
+
+```shell
+$ npm install -g egg-init
+$ egg-init --type simple showcase
+$ cd showcase
+$ npm install
+$ npm run dev
+$ open http://localhost:7001
+```
+
+See [egg-init](https://github.com/eggjs/egg-init) for more detail.
