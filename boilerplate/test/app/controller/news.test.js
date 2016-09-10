@@ -26,7 +26,7 @@ describe('test/app/controller/news.test.js', () => {
   it('should GET /news/item/:id', () => {
     return request(app.callback())
     .get('/news/item/1')
-    .expect('news detail #1')
+    .expect(/\/news\/item\/1/) // just a example, use regex to test part of dom string, but should be strong characteristic
     .expect(200);
   });
 });
