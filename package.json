@@ -5,7 +5,7 @@
   "scripts": {
     "autod": "autod",
     "ci": "npm run test",
-    "test": "npm run lint",
+    "test": "npm run lint -- --fix",
     "lint": "eslint bin lib test index.js boilerplate"
   },
   "homepage": "https://github.com/eggjs/egg-boilerplate-simple",
