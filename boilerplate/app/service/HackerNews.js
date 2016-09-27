@@ -1,6 +1,6 @@
 'use strict';
 
-module.exports = app => (
+module.exports = app => {
   /**
    * HackerNews Api Service
    */
@@ -65,4 +65,6 @@ module.exports = app => (
       return yield this.request(`user/${id}.json`);
     }
   }
-);
+
+  return HackerNews;
+};
