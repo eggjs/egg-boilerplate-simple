@@ -1,4 +1,12 @@
 
+1.2.3 / 2016-09-27
+==================
+
+  * style: arrow-body-style (#13)
+  * feat: don't fix eslint at ci (#12)
+  * test: fix not pass test case (#11)
+  * feat: add installation (#10)
+
 1.2.2 / 2016-09-02
 ==================
 
