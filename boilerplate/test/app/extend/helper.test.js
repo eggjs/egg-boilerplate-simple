@@ -8,11 +8,11 @@ describe('test/app/extend/helper.test.js', () => {
   let app;
   let ctx;
   let helper;
-  before(() => {
+  before(function* () {
     app = mm.app();
+    yield app.ready();
     ctx = app.mockContext();
     helper = ctx.helper;
-    return app.ready();
   });
 
   after(() => app.close());
