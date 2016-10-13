@@ -6,10 +6,11 @@ const mm = require('egg-mock');
 describe('test/app/service/HackerNews.test.js', () => {
   let app;
   let ctx;
-  before(() => {
+
+  before(function* () {
     app = mm.app();
+    yield app.ready();
     ctx = app.mockContext();
-    return app.ready();
   });
 
   after(() => app.close());
