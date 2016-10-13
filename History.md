@@ -1,4 +1,12 @@
 
+1.3.0 / 2016-10-13
+==================
+
+  * feat: dev helper && docs (#14)
+  * test: add mocha.opts (#14)
+  * fix: mockContext should use after ready (#14)
+  * test: fix: mockContext should use after ready (#14)
+
 1.2.3 / 2016-09-27
 ==================
 
@@ -40,7 +48,7 @@
 
 1.0.0 / 2016-08-29
 ==================
-  
+
   * feat: init basic boilerplate (#1)
 
 
