@@ -4,9 +4,13 @@
   "description": "boilerplate for egg quickstart",
   "scripts": {
     "autod": "autod",
-    "ci": "npm run test",
-    "test": "npm run lint -- --fix",
-    "lint": "eslint bin lib test index.js boilerplate"
+    "lint": "eslint bin lib test index.js boilerplate",
+    "test": "npm run lint -- --fix && npm run test-boilerplate",
+    "ci": "npm run lint && npm run ci-boilerplate",
+    "test-boilerplate": "npm run build && npm run install-deps && cd dist && npm test",
+    "ci-boilerplate": "npm run build && npm run install-deps && cd dist && npm run ci",
+    "build": "egg-init dist --force --silent --template=./",
+    "install-deps": "cd dist && ../node_modules/.bin/autod && ../node_modules/.bin/npminstall"
   },
   "homepage": "https://github.com/eggjs/egg-boilerplate-simple",
   "bugs": "https://github.com/eggjs/egg/issues",
@@ -23,6 +27,8 @@
     "eslint": "^3.9.1",
     "eslint-config-egg": "^3.2.0",
     "intelli-espower-loader": "^1.0.1",
-    "power-assert": "^1.4.1"
+    "npminstall": "^2.11.2",
+    "power-assert": "^1.4.1",
+    "webstorm-disable-index": "^1.0.11"
   }
 }
