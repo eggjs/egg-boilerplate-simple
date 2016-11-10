@@ -3,3 +3,6 @@ coverage
 .logs
 npm-debug.log
 npm-debug.log.*
+.tmp
+tmp
+dist

@@ -2,13 +2,16 @@
 
 const assert = require('power-assert');
 const mm = require('egg-mock');
+const path = require('path');
 
 describe('test/app/service/HackerNews.test.js', () => {
   let app;
   let ctx;
 
   before(function* () {
-    app = mm.app();
+    app = mm.app({
+      customEgg: path.join('../../../node_modules/egg'),
+    });
     yield app.ready();
     ctx = app.mockContext();
   });
