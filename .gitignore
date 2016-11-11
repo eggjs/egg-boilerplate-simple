@@ -6,5 +6,4 @@ npm-debug.log.*
 .tmp
 tmp
 dist
-
 .idea/
