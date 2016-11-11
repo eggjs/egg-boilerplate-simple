@@ -4,14 +4,11 @@ const request = require('supertest');
 const mm = require('egg-mock');
 const assert = require('power-assert');
 const cheerio = require('cheerio');
-const path = require('path');
 
 describe('test/app/controller/news.test.js', () => {
   let app;
   before(() => {
-    app = mm.app({
-      customEgg: path.join('../../../node_modules/egg'),
-    });
+    app = mm.app();
     return app.ready();
   });
 

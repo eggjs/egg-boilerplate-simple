@@ -4,8 +4,8 @@ module.exports = {
   write: true,
   prefix: '^',
   test: [
-     'test',
-     'benchmark',
+    'test',
+    'benchmark',
   ],
   dep: [
     'egg-view-nunjucks',

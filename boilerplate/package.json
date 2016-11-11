@@ -9,17 +9,17 @@
     "moment": "^2.16.0"
   },
   "devDependencies": {
-    "autod": "^2",
-    "egg-bin": "^1",
-    "egg-ci": "^1",
-    "egg-mock": "^1",
-    "eslint": "^3",
-    "eslint-config-egg": "^3",
+    "autod": "^2.7.1",
+    "egg-bin": "^1.7.0",
+    "egg-ci": "^1.1.0",
+    "egg-mock": "^1.2.0",
+    "eslint": "^3.9.1",
+    "eslint-config-egg": "^3.2.0",
     "cheerio": "^0.22.0",
-    "intelli-espower-loader": "^1",
-    "power-assert": "^1",
-    "supertest": "^2",
-    "webstorm-disable-index": "^1"
+    "intelli-espower-loader": "^1.0.1",
+    "power-assert": "^1.0.1",
+    "supertest": "^2.0.1",
+    "webstorm-disable-index": "^1.0.11"
   },
   "engines": {
     "node": ">=4.0.0"
