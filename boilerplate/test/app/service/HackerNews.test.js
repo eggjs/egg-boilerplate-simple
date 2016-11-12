@@ -18,8 +18,8 @@ describe('test/app/service/HackerNews.test.js', () => {
   afterEach(mm.restore);
 
   it('getTopStories', function* () {
-    const list = yield ctx.service.hackerNews.getTopStories(1, 2);
-    assert(list.length === 2);
+    const list = yield ctx.service.hackerNews.getTopStories();
+    assert(list.length === 30);
   });
 
   it('getItem', function* () {

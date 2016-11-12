@@ -29,4 +29,11 @@ describe('test/app/controller/news.test.js', () => {
     .expect(/\/news\/item\/1/) // just a example, use regex to test part of dom string, but should be strong characteristic
     .expect(200);
   });
+
+  it('should GET /news/user/:id', () => {
+    return request(app.callback())
+    .get('/news/user/activatedgeek')
+    .expect(/<span class="label">user:<\/span> activatedgeek/) // just a example, use regex to test part of dom string, but should be strong characteristic
+    .expect(200);
+  });
 });

@@ -1,7 +1,7 @@
 'use strict';
 
 // just for showcase, egg had a build-in middleware to export `x-readtime` header
-module.exports = (options, app) => {
+module.exports = options => {
   return function* (next) {
     const start = Date.now();
     yield next;
