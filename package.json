@@ -25,10 +25,10 @@
   "devDependencies": {
     "autod": "^2.7.1",
     "egg-ci": "^1.1.0",
-    "egg-init": "^1.4.2",
-    "eslint": "^3.10.0",
+    "egg-init": "^1.5.0",
+    "eslint": "^3.10.2",
     "eslint-config-egg": "^3.2.0",
-    "npminstall": "^2.11.2",
+    "npminstall": "^2.12.1",
     "webstorm-disable-index": "^1.0.11"
   },
   "ci": {
