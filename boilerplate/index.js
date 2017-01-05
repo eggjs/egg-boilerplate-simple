@@ -1,5 +1,7 @@
 'use strict';
 
+// npm run dev DO NOT read this file
+
 const isLocal = process.env.NODE_ENV !== 'production' && !process.env.EGG_SERVER_ENV;
 
 require('egg').startCluster({

@@ -1,7 +1,7 @@
 'use strict';
 
 const mm = require('egg-mock');
-const assert = require('power-assert');
+const assert = require('assert');
 
 describe('test/app/extend/helper.test.js', () => {
   let app;
