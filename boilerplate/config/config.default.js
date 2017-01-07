@@ -4,26 +4,29 @@ const fs = require('fs');
 const path = require('path');
 
 module.exports = appInfo => {
-  const exports = {};
+  const config = {};
+
+  // should change to your own
+  config.keys = appInfo.name + '123456';
 
   // organization your app middlewares
-  exports.middleware = [
+  config.middleware = [
     'responseTime',
   ];
 
-  exports.siteFile = {
+  config.siteFile = {
     '/favicon.ico': fs.readFileSync(path.join(appInfo.baseDir, 'app/public/favicon.png')),
   };
 
   // config for middleware / plugin
-  exports.responseTime = {
+  config.responseTime = {
     header: 'x-response-time',
   };
 
-  exports.news = {
+  config.news = {
     pageSize: 30,
     serverUrl: 'https://hacker-news.firebaseio.com/v0',
   };
 
-  return exports;
+  return config;
 };

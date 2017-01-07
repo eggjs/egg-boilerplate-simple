@@ -1,6 +1,6 @@
 'use strict';
 
-const assert = require('power-assert');
+const assert = require('assert');
 const mm = require('egg-mock');
 
 describe('test/app/service/HackerNews.test.js', () => {

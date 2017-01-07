@@ -2,7 +2,7 @@
 
 const request = require('supertest');
 const mm = require('egg-mock');
-const assert = require('power-assert');
+const assert = require('assert');
 const cheerio = require('cheerio');
 
 describe('test/app/controller/news.test.js', () => {

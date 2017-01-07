@@ -4,22 +4,20 @@
   "description": "{{description}}",
   "private": true,
   "dependencies": {
-    "egg": "^0.5.0",
+    "egg": "^0.6.3",
     "egg-view-nunjucks": "^0.6.0",
-    "moment": "^2.16.0"
+    "moment": "^2.17.1"
   },
   "devDependencies": {
     "autod": "^2.7.1",
-    "egg-bin": "^1.7.0",
+    "egg-bin": "^1.10.0",
     "egg-ci": "^1.1.0",
     "egg-mock": "^1.2.0",
-    "eslint": "^3.10.2",
+    "eslint": "^3.12.2",
     "eslint-config-egg": "^3.2.0",
     "cheerio": "^0.22.0",
-    "intelli-espower-loader": "^1.0.1",
-    "power-assert": "^1.4.2",
     "supertest": "^2.0.1",
-    "webstorm-disable-index": "^1.0.11"
+    "webstorm-disable-index": "^1.1.2"
   },
   "engines": {
     "node": ">=4.0.0"
@@ -28,8 +26,8 @@
     "start": "node index.js",
     "dev": "egg-bin dev",
     "test": "npm run lint -- --fix && npm run test-local",
-    "test-local": "egg-bin test -r intelli-espower-loader",
-    "cov": "egg-bin cov -r intelli-espower-loader",
+    "test-local": "egg-bin test",
+    "cov": "egg-bin cov",
     "lint": "eslint .",
     "ci": "npm run lint && npm run cov",
     "autod": "autod"
