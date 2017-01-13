@@ -1,5 +1,5 @@
 'use strict';
 
-module.exports = function* homeController() {
+module.exports = function* home() {
   this.body = 'hi, egg';
 };
