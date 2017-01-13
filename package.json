@@ -26,12 +26,12 @@
     "autod": "^2.7.1",
     "egg-ci": "^1.1.0",
     "egg-init": "^1.6.1",
-    "eslint": "^3.12.2",
+    "eslint": "^3.13.1",
     "eslint-config-egg": "^3.2.0",
     "npminstall": "^2.16.0",
     "webstorm-disable-index": "^1.1.2"
   },
   "ci": {
-    "version": "4, 6, 7"
+    "version": "6, 7"
   }
 }

@@ -8,7 +8,6 @@ module.exports = {
     'benchmark',
   ],
   dep: [
-    'egg-view-nunjucks',
   ],
   devdep: [
     'egg-ci',
@@ -23,5 +22,6 @@ module.exports = {
     './test/fixtures',
     './dist',
   ],
+  registry: 'https://r.cnpmjs.org',
 };
 
