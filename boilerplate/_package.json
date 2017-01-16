@@ -10,7 +10,7 @@
     "autod": "^2.7.1",
     "egg-bin": "^1.10.0",
     "egg-ci": "^1.1.0",
-    "egg-mock": "^2.0.0",
+    "egg-mock": "^2.1.0",
     "eslint": "^3.13.1",
     "eslint-config-egg": "^3.2.0",
     "cheerio": "^0.22.0",
