@@ -9,7 +9,8 @@
     "ci": "npm run lint && npm run ci-boilerplate",
     "test-boilerplate": "npm run build && npm run install-deps && cd dist && npm test",
     "ci-boilerplate": "npm run build && npm run install-deps && cd dist && npm run ci",
-    "build": "egg-init dist --force --silent --template=./",
+    "clean": "rm -rf boilerplate/.idea boilerplate/logs boilerplate/node_modules boilerplate/run",
+    "build": "npm run clean && egg-init dist --force --silent --template=./",
     "install-deps": "cd dist && ../node_modules/.bin/autod && ../node_modules/.bin/npminstall"
   },
   "homepage": "https://github.com/eggjs/egg-boilerplate-simple",
@@ -26,9 +27,9 @@
     "autod": "^2.7.1",
     "egg-ci": "^1.1.0",
     "egg-init": "^1.6.1",
-    "eslint": "^3.13.1",
+    "eslint": "^3.14.0",
     "eslint-config-egg": "^3.2.0",
-    "npminstall": "^2.16.0",
+    "npminstall": "^2.16.1",
     "webstorm-disable-index": "^1.1.2"
   },
   "ci": {

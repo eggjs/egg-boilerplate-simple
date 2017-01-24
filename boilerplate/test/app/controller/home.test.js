@@ -1,23 +1,19 @@
 'use strict';
 
-const request = require('supertest');
-const mm = require('egg-mock');
-
 describe('test/app/controller/home.test.js', () => {
-  let app;
-  before(() => {
-    app = mm.app();
-    return app.ready();
+  it('should app auto init on setup.js', () => {
+    // app is auto init at `test/.setup.js`
+    assert(app);
+    assert(mock);
+    // mock alias
+    assert(mm);
+    assert(request);
   });
-
-  after(() => app.close());
-
-  afterEach(mm.restore);
 
   it('should GET /', () => {
     return request(app.callback())
-    .get('/')
-    .expect('hi, egg')
-    .expect(200);
+      .get('/')
+      .expect('hi, egg')
+      .expect(200);
   });
 });
