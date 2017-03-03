@@ -1,4 +1,10 @@
 
+2.2.0 / 2017-03-03
+==================
+
+  * chore: update deps & remove autod r config (#22)
+  * chore: update deps & license (#21)
+
 2.1.0 / 2017-01-25
 ==================
 
