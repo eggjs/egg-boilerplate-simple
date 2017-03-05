@@ -21,7 +21,7 @@
   },
   "author": "TZ <atian25@qq.com>",
   "dependencies": {
-
+    "uuid": "^3.0.1"
   },
   "devDependencies": {
     "autod": "^2.7.1",
