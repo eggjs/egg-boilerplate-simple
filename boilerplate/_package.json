@@ -4,8 +4,7 @@
   "description": "{{description}}",
   "private": true,
   "dependencies": {
-    "egg": "^1.0.0-rc.2",
-    "uuid": "^3.0.1"
+    "egg": "^1.0.0-rc.2"
   },
   "devDependencies": {
     "autod": "^2.7.1",

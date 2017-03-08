@@ -1,7 +1,5 @@
 'use strict';
 
-const uuid = require('uuid/v4');
-
 module.exports = {
   name: {
     desc: 'project name',
@@ -14,6 +12,10 @@ module.exports = {
   },
   keys: {
     desc: 'cookie security keys',
-    default: uuid(),
+    default: Date.now() + '_' + random(100, 10000),
   },
 };
+
+function random(start, end) {
+  return Math.floor(Math.random() * (end - start) + start);
+}
