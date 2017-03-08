@@ -1,6 +1,6 @@
 {
   "name": "egg-boilerplate-simple",
-  "version": "2.3.1",
+  "version": "2.3.2",
   "description": "boilerplate for egg quickstart",
   "scripts": {
     "autod": "autod",
