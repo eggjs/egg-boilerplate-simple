@@ -4,7 +4,7 @@ const mm = require('egg-mock');
 
 global.mm = global.mock = mm;
 global.request = require('supertest');
-global.assert = require('assert');
+global.assert = require('power-assert');
 
 let app;
 before(() => {
