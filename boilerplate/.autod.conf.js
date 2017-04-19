@@ -15,7 +15,6 @@ module.exports = {
     'autod',
     'eslint',
     'eslint-config-egg',
-    'supertest',
     'webstorm-disable-index',
   ],
   exclude: [
