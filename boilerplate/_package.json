@@ -4,23 +4,25 @@
   "description": "{{description}}",
   "private": true,
   "dependencies": {
-    "egg": "^1.4.0"
+    "egg": "^1.7.0",
+    "egg-scripts": "^1.0.0"
   },
   "devDependencies": {
-    "autod": "^2.8.0",
+    "autod": "^2.9.0",
     "autod-egg": "^1.0.0",
-    "egg-bin": "^3.4.0",
-    "egg-ci": "^1.6.0",
-    "egg-mock": "^3.7.0",
-    "eslint": "^3.19.0",
-    "eslint-config-egg": "^4.2.0",
+    "egg-bin": "^4.1.0",
+    "egg-ci": "^1.8.0",
+    "egg-mock": "^3.9.0",
+    "eslint": "^4.3.0",
+    "eslint-config-egg": "^5.0.0",
     "webstorm-disable-index": "^1.2.0"
   },
   "engines": {
     "node": ">=6.0.0"
   },
   "scripts": {
-    "start": "node index.js",
+    "start": "egg-scripts start --daemon",
+    "stop": "egg-scripts stop",
     "dev": "egg-bin dev",
     "test": "npm run lint -- --fix && npm run test-local",
     "test-local": "egg-bin test",
