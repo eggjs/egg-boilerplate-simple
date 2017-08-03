@@ -9,18 +9,18 @@
 see [egg docs][egg] for more detail.
 
 ### Development
-```shell
-$ npm install
+
+```bash
+$ npm i
 $ npm run dev
 $ open http://localhost:7001/news
 ```
 
 ### Deploy
 
-Use `EGG_SERVER_ENV=prod` to enable prod mode
-
-```shell
-$ EGG_SERVER_ENV=prod npm start
+```bash
+$ npm start
+$ npm stop
 ```
 
 ### npm scripts

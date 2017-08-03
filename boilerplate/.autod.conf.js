@@ -9,10 +9,13 @@ module.exports = {
     'benchmark',
   ],
   dep: [
+    'egg',
+    'egg-scripts',
   ],
   devdep: [
     'egg-ci',
     'egg-bin',
+    'egg-mock',
     'autod',
     'autod-egg',
     'eslint',
