@@ -1,4 +1,10 @@
 
+2.9.0 / 2017-10-09
+==================
+
+**others**
+  * [[`e846613`](https://github.com/eggjs/egg-boilerplate-simple.git/commit/e846613f4e0b513216436905f15cab082c3eb9bd)] - chore: Ignore lock and error log. (#35) (jiaxin <<songjiaxin2008@gmail.com>>)
+
 2.8.2 / 2017-09-18
 ==================
 

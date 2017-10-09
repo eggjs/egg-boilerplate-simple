@@ -1,6 +1,6 @@
 {
   "name": "egg-boilerplate-simple",
-  "version": "2.8.2",
+  "version": "2.9.0",
   "description": "boilerplate for egg quickstart",
   "scripts": {
     "autod": "autod",
@@ -33,7 +33,5 @@
   "ci": {
     "version": "6, 8"
   },
-  "dependencies": {
-
-  }
+  "dependencies": {}
 }
