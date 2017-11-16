@@ -24,13 +24,13 @@ Boilerplate for egg quickstart.
 
 ## Installation
 
-**Don't `npm install` this directly**
+**Don't `npm i` this directly**
 
-```shell
-$ npm install -g egg-init
+```bash
+$ npm i -g egg-init
 $ egg-init --type simple showcase
 $ cd showcase
-$ npm install
+$ npm i
 $ npm run dev
 $ open http://localhost:7001
 ```
