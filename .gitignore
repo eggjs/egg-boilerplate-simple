@@ -9,3 +9,5 @@ dist
 node_modules
 logs
 run
+*.sw*
+*.un~
