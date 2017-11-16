@@ -13,7 +13,7 @@ Boilerplate for egg quickstart.
 [npm-url]: https://npmjs.org/package/egg-boilerplate-simple
 [travis-image]: https://img.shields.io/travis/eggjs/egg-boilerplate-simple.svg?style=flat-square
 [travis-url]: https://travis-ci.org/eggjs/egg-boilerplate-simple
-[codecov-image]: https://codecov.io/gh/eggjs/egg-boilerplate-simple/branch/master/graph/badge.svg
+[codecov-image]: https://img.shields.io/codecov/c/github/eggjs/egg-boilerplate-simple.svg?style=flat-square
 [codecov-url]: https://codecov.io/gh/eggjs/egg-boilerplate-simple
 [david-image]: https://img.shields.io/david/eggjs/egg-boilerplate-simple.svg?style=flat-square
 [david-url]: https://david-dm.org/eggjs/egg-boilerplate-simple
