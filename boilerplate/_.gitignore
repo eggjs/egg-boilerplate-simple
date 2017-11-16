@@ -8,4 +8,5 @@ coverage/
 .idea/
 run/
 .DS_Store
-*.swp
+*.sw*
+*.un~
