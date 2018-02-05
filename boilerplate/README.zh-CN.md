@@ -25,15 +25,21 @@ $ npm stop
 
 ### 单元测试
 
-- [egg-bin] 内置了 [mocha], [thunk-mocha], [power-assert], [istanbul] 等框架，让你可以专注于写单元测试，无需理会配套工具。
-- 断言库非常推荐使用 [power-assert]。
+- [egg-bin][egg-bin] 内置了 [mocha][mocha], [co-mocha][co-mocha], [power-assert][power-assert], [istanbul][istanbul] 等框架，让你可以专注于写单元测试，无需理会配套工具。
+- 断言库非常推荐使用 [power-assert][power-assert]。
 - 具体参见 [egg 文档 - 单元测试](https://eggjs.org/zh-cn/core/unittest)。
 
 ### 内置指令
 
 - 使用 `npm run lint` 来做代码风格检查。
 - 使用 `npm test` 来执行单元测试。
-- 使用 `npm run autod` 来自动检测依赖更新，详细参见 [autod](https://www.npmjs.com/package/autod) 。
+- 使用 `npm run autod` 来自动检测依赖更新，详细参见 [autod][autod] 。
 
 
 [egg]: https://eggjs.org
+[egg-bin]: https://www.npmjs.com/package/egg-bin
+[mocha]: https://www.npmjs.com/package/mocha
+[co-mocha]: https://www.npmjs.com/package/co-mocha
+[power-assert]: https://www.npmjs.com/package/power-assert
+[istanbul]: https://www.npmjs.com/package/istanbul
+[autod]: https://www.npmjs.com/package/autod
