@@ -1,4 +1,9 @@
 'use strict';
 
-// had enabled by egg
-// exports.static = true;
+/** @type Egg.EggPlugin */
+module.exports = {
+  // had enabled by egg
+  // static: {
+  //   enable: true,
+  // }
+};
