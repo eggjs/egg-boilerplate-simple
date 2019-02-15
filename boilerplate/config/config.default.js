@@ -1,9 +1,9 @@
 'use strict';
 
 module.exports = appInfo => {
-  /** 
+  /**
    * built-in config
-   * @type {Egg.EggAppConfig} 
+   * @type {Egg.EggAppConfig}
    **/
   const config = {};
 
