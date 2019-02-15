@@ -1,13 +1,25 @@
 'use strict';
 
 module.exports = appInfo => {
-  const config = exports = {};
+  /**
+   * built-in config
+   * @type {Egg.EggAppConfig}
+   **/
+  const config = {};
 
   // use for cookie sign key, should change to your own and keep security
   config.keys = appInfo.name + '_{{keys}}';
 
-  // add your config here
+  // add your middleware config here
   config.middleware = [];
 
-  return config;
+  // add your user config here
+  const userConfig = {
+    // myAppName: 'egg',
+  };
+
+  return {
+    ...config,
+    ...userConfig,
+  };
 };
