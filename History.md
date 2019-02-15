@@ -1,4 +1,10 @@
 
+3.2.1 / 2019-02-15
+==================
+
+**fixes**
+  * [[`89fa778`](http://github.com/eggjs/egg-boilerplate-simple/commit/89fa7784b5fffc16f83abf1468e744caf2a19051)] - fix: add jsdoc of appInfo (#45) (吖猩 <<whxaxes@qq.com>>)
+
 3.2.0 / 2019-02-15
 ==================
 
