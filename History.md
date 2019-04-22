@@ -1,4 +1,10 @@
 
+3.3.0 / 2019-04-22
+==================
+
+**features**
+  * [[`c496357`](http://github.com/eggjs/egg-boilerplate-simple/commit/c496357ebacfd9b02ae05d90f5b3d92032c687b1)] - feat: exports for newbee && node version to 10 (#46) (TZ | 天猪 <<atian25@qq.com>>)
+
 3.2.1 / 2019-02-15
 ==================
 
