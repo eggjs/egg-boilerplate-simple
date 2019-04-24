@@ -1,4 +1,10 @@
 
+3.3.1 / 2019-04-24
+==================
+
+**fixes**
+  * [[`24530cf`](http://github.com/eggjs/egg-boilerplate-simple/commit/24530cff3ba76e99bfa98099d83a2c3a3434922a)] - fix: remove generator (#47) (TZ | 天猪 <<atian25@qq.com>>)
+
 3.3.0 / 2019-04-22
 ==================
 
