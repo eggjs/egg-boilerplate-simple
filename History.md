@@ -1,4 +1,13 @@
 
+3.4.0 / 2022-06-29
+==================
+
+**features**
+  * [[`79fc865`](http://github.com/eggjs/egg-boilerplate-simple/commit/79fc865ddec1bd39432bcfbdcd9aca8878ec0a5f)] - feat: update to 16.x (#49) (TZ | 天猪 <<atian25@qq.com>>)
+
+**others**
+  * [[`bee89b1`](http://github.com/eggjs/egg-boilerplate-simple/commit/bee89b1b425d182209a834e892c99c53f9767089)] - chore: update travis (#48) (TZ | 天猪 <<atian25@qq.com>>)
+
 3.3.1 / 2019-04-24
 ==================
 
