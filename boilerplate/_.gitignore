@@ -2,7 +2,8 @@ logs/
 npm-debug.log
 yarn-error.log
 node_modules/
-package-lock.json
+*-lock.json
+*-lock.yaml
 yarn.lock
 coverage/
 .idea/
