@@ -1,4 +1,10 @@
 
+3.5.0 / 2022-09-30
+==================
+
+**features**
+  * [[`1175c64`](http://github.com/eggjs/egg-boilerplate-simple/commit/1175c6486a622bf7383be021c98ad36b180272c1)] - feat: update egg3 (#50) (TZ | 天猪 <<atian25@qq.com>>)
+
 3.4.0 / 2022-06-29
 ==================
 
