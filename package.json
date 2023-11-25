@@ -20,14 +20,8 @@
   },
   "author": "TZ <atian25@qq.com>",
   "devDependencies": {
-    "egg-ci": "^2.1.0",
     "egg-init": "^2.3.1",
-    "eslint": "^8.24.0",
-    "eslint-config-egg": "^12.1.0",
-    "npminstall": "^6.5.1"
-  },
-  "ci": {
-    "version": "16",
-    "type": "github"
+    "eslint": "8",
+    "eslint-config-egg": "13"
   }
 }
