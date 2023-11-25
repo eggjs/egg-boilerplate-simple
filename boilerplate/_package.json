@@ -7,33 +7,27 @@
     "declarations": true
   },
   "dependencies": {
-    "egg": "^3",
-    "egg-scripts": "^2"
+    "egg": "^3.17.5",
+    "egg-scripts": "2"
   },
   "devDependencies": {
-    "egg-bin": "^5",
-    "egg-ci": "^2",
-    "egg-mock": "^5",
-    "eslint": "^8",
-    "eslint-config-egg": "^12"
+    "egg-bin": "6",
+    "egg-mock": "5",
+    "eslint": "8",
+    "eslint-config-egg": "13"
   },
   "engines": {
-    "node": ">=16.0.0"
+    "node": ">=18.0.0"
   },
   "scripts": {
     "start": "egg-scripts start --daemon --title=egg-server-{{name}}",
     "stop": "egg-scripts stop --title=egg-server-{{name}}",
     "dev": "egg-bin dev",
-    "debug": "egg-bin debug",
-    "test": "npm run lint -- --fix && npm run test-local",
-    "test-local": "egg-bin test",
+    "test": "npm run lint -- --fix && npm run test:local",
+    "test:local": "egg-bin test",
     "cov": "egg-bin cov",
     "lint": "eslint .",
     "ci": "npm run lint && npm run cov"
-  },
-  "ci": {
-    "version": "16, 18",
-    "type": "github"
   },
   "repository": {
     "type": "git",
