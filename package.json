@@ -8,7 +8,7 @@
     "ci": "npm run lint && npm run ci-boilerplate",
     "test-boilerplate": "npm run build && npm run install-deps && cd dist && npm test",
     "ci-boilerplate": "npm run build && npm run install-deps && cd dist && npm run ci",
-    "clean": "rm -rf boilerplate/.idea boilerplate/logs boilerplate/node_modules boilerplate/run",
+    "clean": "rm -rf dist boilerplate/.idea boilerplate/logs boilerplate/node_modules boilerplate/run",
     "build": "npm run clean && egg-init dist --force --silent --template=./",
     "install-deps": "cd dist && npm i"
   },
@@ -20,7 +20,7 @@
   },
   "author": "TZ <atian25@qq.com>",
   "devDependencies": {
-    "egg-init": "^2.3.1",
+    "egg-init": "3",
     "eslint": "8",
     "eslint-config-egg": "13"
   }
